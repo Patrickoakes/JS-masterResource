@@ -16,4 +16,3 @@ for(var i = 0; i < lis.length; i++) {
 
 console.log(lis[0].style.cssText = 'background-color: yellow; font-size: 25px;');
 */
-
