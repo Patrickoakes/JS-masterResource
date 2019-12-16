@@ -39,13 +39,20 @@ function changeTheText() {
 var variableName = "Patrick ";
 var secondNumber = 2;
 var secondString = "Awesome  ";*/
-var coolNumber = 1;
+
+/*var coolNumber = 2;
 function changeTheText() {
   if (coolNumber === 1) {
     // work(); from 12 function  within function
     var changeTextVariable = document.getElementById("changeUserText").value;
-
     document.getElementById("paragraphText").innerHTML = changeTextVariable;
+
+  }
+  else {
+    var changeTextVariable = "Else statement fired";
+    document.getElementById("paragraphText").innerHTML = changeTextVariable;
+
+
   }
 }
 
@@ -54,4 +61,13 @@ function changeTheText() {
 
 //   document.getElementById("paragraphText").innerHTML = variableName + secondString;
 
-//}
+//}*/
+
+/// CSS STYLING  //
+var coolNumber = 3;
+function changeTheText() {
+  document.getElementById("paragraphText").style.color = "orange";
+
+  var changeTextVariable = document.getElementById("changeUserText").value;
+  document.getElementById("paragraphText").innerHTML = changeTextVariable;
+}
