@@ -13,8 +13,8 @@ console.log(newEl);
 
 var form = document.getElementById("add");
 
-//form.appendChild(newEl);
+form.appendChild(newEl);
 
-form.insertBefore(newEl, form.children[0]);
+/*form.insertBefore(newEl, form.children[0]);
 
-newEl.parentElement.removeChild(newEl);
+newEl.parentElement.removeChild(newEl);*/
